@@ -13,7 +13,7 @@ export default function Home() {
 				/>
 				<h1 className='text-2xl'>Virtual Campus Tour</h1>
 			</nav>{' '}
-			<main className='grid grid-cols-1 gap-y-8 font-serif'>
+			<main className='grid grid-cols-1 gap-y-8 font-serif bg-blue-100'>
 				<section
 					id='start'
 					className='h-full flex flex-col items-center justify-center bg-cover bg-center'
