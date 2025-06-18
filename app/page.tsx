@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Video } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -47,7 +48,7 @@ export default function Home() {
 								<a
 									href='#3'
 									className='bg-[#77c9e6] p-2 rounded text-neutral-100 text-xl hover:bg-[#627379]/50 transition-colors absolute'>
-									Jump to Section 3
+									Libraries
 								</a>
 							</Button>
 						</div>
@@ -62,7 +63,7 @@ export default function Home() {
 								<a
 									href='#4'
 									className='bg-[#095bab] p-2 rounded text-neutral-100 text-xl hover:bg-[#627379]/80 transition-colors absolute'>
-									Jump to Section 4
+									Laboratories
 								</a>
 							</Button>
 						</div>
@@ -126,10 +127,6 @@ export default function Home() {
 							</figcaption>
 						</figure>
 					</div>
-				</section>
-				<section
-					id='3'
-					className=' flex flex-col items-center justify-center my-7 '>
 					<span className='p-4'>
 						The University of Delta (UNIDEL), participates in various sports,
 						including those featured in the Nigerian University Staff Games
@@ -151,33 +148,13 @@ export default function Home() {
 							</figcaption>
 						</figure>
 					</div>
-					<div className='my-8'>
-						<figure className='text-center'>
-							<Image
-								src={'/uni-images/Physics-lab.svg'}
-								alt='Physics Lab'
-								width={1300}
-								height={600}
-							/>
-							<figcaption className='text-lg mt-2 text-gray-600'>
-								The Physics Laboratory
-							</figcaption>
-						</figure>
-					</div>
 				</section>
 				<section
-					id='4'
+					id='3'
 					className=' flex flex-col items-center justify-center my-7 '>
-					<span className='p-4'>
-						The Physics Lab at Unidel is designed to support hands-on learning
-						for introductory physics courses, such as kinematics, Newton’s Laws,
-						and fluid dynamics. Students engage in experiments like free-fall
-						measurements, projectile motion, and rotational dynamics, which
-						reinforce theoretical concepts. The lab emphasizes proper procedure,
-						including pre-lab preparation, teamwork (with individual reports),
-						and adherence to safety protocols. Missing labs can result in grade
-						penalties, highlighting the importance of attendance
-					</span>
+					<h4 className='text-lg font-semibold font-serif text-center my-5'>
+						Discover our extensive library resources and e-library facilities
+					</h4>
 					<div className='my-8'>
 						<figure className='text-center'>
 							<Image
@@ -204,10 +181,6 @@ export default function Home() {
 							</figcaption>
 						</figure>
 					</div>
-				</section>
-				<section
-					id='5'
-					className=' flex flex-col items-center justify-center my-7 '>
 					<span className='p-4'>
 						The Unidel Library, established in 1980, houses over 27,655 volumes
 						of books, journals, and project works. It offers services like
@@ -220,6 +193,13 @@ export default function Home() {
 						to 4:00 PM, and Saturday, 8:00 AM to 2:00 PM. It is closed on
 						Sundays and public holidays.
 					</span>
+				</section>
+				<section
+					id='4'
+					className=' flex flex-col items-center justify-center my-7 '>
+					<h4 className='text-lg font-semibold font-serif text-center my-5'>
+						Explore our state-of-the-art laboratories and research facilities
+					</h4>
 					<div className='my-8'>
 						<figure className='text-center'>
 							<Image
@@ -246,10 +226,6 @@ export default function Home() {
 							</figcaption>
 						</figure>
 					</div>
-				</section>
-				<section
-					id='6'
-					className='flex flex-col items-center justify-center my-7'>
 					<span className='p-4'>
 						University labs feature workstations with specialized software
 						(e.g., AutoCAD, MATLAB), printers, and scanners. For example, labs
@@ -261,15 +237,72 @@ export default function Home() {
 					<div className='my-8'>
 						<figure className='text-center'>
 							<Image
-								src={'/uni-images/Art-room.svg'}
-								alt='Art Lecture Room'
+								src={'/uni-images/Physics-lab.svg'}
+								alt='Physics Lab'
 								width={1300}
 								height={600}
 							/>
 							<figcaption className='text-lg mt-2 text-gray-600'>
-								The Art Lecture Room
+								The Physics Laboratory
 							</figcaption>
 						</figure>
+					</div>
+					<span className='p-4'>
+						The Physics Lab at Unidel is designed to support hands-on learning
+						for introductory physics courses, such as kinematics, Newton’s Laws,
+						and fluid dynamics. Students engage in experiments like free-fall
+						measurements, projectile motion, and rotational dynamics, which
+						reinforce theoretical concepts. The lab emphasizes proper procedure,
+						including pre-lab preparation, teamwork (with individual reports),
+						and adherence to safety protocols. Missing labs can result in grade
+						penalties, highlighting the importance of attendance
+					</span>
+
+					<div className='mt-10'>
+						<div className='my-8'>
+							<figure className='text-center'>
+								<Image
+									src={'/uni-images/Art-room.svg'}
+									alt='Art Lecture Room'
+									width={1300}
+									height={600}
+								/>
+								<figcaption className='text-lg mt-2 text-gray-600'>
+									The Art Lecture Room
+								</figcaption>
+							</figure>
+						</div>
+						<span className='p-4'>
+							The University of Delta (UNIDEL) offers a diverse range of
+							undergraduate and postgraduate programs across various faculties,
+							including Agriculture, Arts, Education, Information Technology,
+							Medicine, and Law. The university's commitment to academic
+							excellence is reflected in its comprehensive curriculum and
+							state-of-the-art facilities. UNIDEL's vibrant campus life is
+							enriched by cultural events, sports activities, and student
+							organizations, fostering a holistic educational experience for its
+							students.
+						</span>
+					</div>
+				</section>
+				<section
+					id='5'
+					className='flex flex-col items-center justify-center my-7'>
+					<div className='my-8'>
+						<h4 className='text-lg font-semibold font-serif text-center my-5'>
+							Video Tour of the University of Delta
+						</h4>
+						<video
+							width='1080'
+							height='730'
+							controls
+							className='rounded-lg shadow-lg'>
+							<source
+								src='/uni-del video.mp4'
+								type='video/mp4'
+							/>
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</section>
 			</main>
