@@ -213,6 +213,14 @@ export default function Home() {
 							</figcaption>
 						</figure>
 					</div>
+					<span className='p-4'>
+						University labs feature workstations with specialized software
+						(e.g., AutoCAD, MATLAB), printers, and scanners. For example, labs
+						at comparable institutions offer remote access, collaborative
+						workspaces, and adaptive technologies for students Unidel’s ICT
+						facilities include desktops, laptops, and internet access,
+						suggesting a focus on foundational computing resources
+					</span>
 					<div className='my-8'>
 						<figure className='text-center'>
 							<Image
@@ -222,18 +230,11 @@ export default function Home() {
 								height={600}
 							/>
 							<figcaption className='text-lg mt-2 text-gray-600'>
-								The Fluid Mechanics Lab
+								Engineering Fluid Mechanics Lab
 							</figcaption>
 						</figure>
 					</div>
-					<span className='p-4'>
-						University labs feature workstations with specialized software
-						(e.g., AutoCAD, MATLAB), printers, and scanners. For example, labs
-						at comparable institutions offer remote access, collaborative
-						workspaces, and adaptive technologies for students Unidel’s ICT
-						facilities include desktops, laptops, and internet access,
-						suggesting a focus on foundational computing resources
-					</span>
+					
 					<div className='my-8'>
 						<figure className='text-center'>
 							<Image
