@@ -46,7 +46,8 @@ export default function VirtualCampusTour() {
             {/* Category Buttons - Updated Layout */}
             <div className="flex flex-col items-center space-y-8 w-full">
               <h1 className="text-4xl font-bold text-center mb-6 text-[#0b293c]">
-                UNIVERSITY OF DELFASY
+                UNIVERSITY OF DELTA STATE <br/> <br></br>
+				<span className="text-[#0b293c]">VIRTUAL CAMPUS TOUR</span>
               </h1>
               
               <div className="flex flex-col items-center space-y-4 w-full max-w-2xl">
@@ -69,10 +70,10 @@ export default function VirtualCampusTour() {
 
               <div className="mt-8 text-center">
                 <p className="text-2xl font-bold text-[#0b293c]">
-                  POWERFUL OF DATA
+                  WELCOME TO THE UNIVERSITY OF DELTA STATE
                 </p>
-                <p className="text-2xl font-bold text-[#0b293c]">FOR</p>
-                <p className="text-2xl font-bold text-[#0b293c]">LABORATO</p>
+                <p className="text-2xl font-bold text-[#0b293c]"><br></br></p>
+                <p className="text-2xl font-bold text-[#0b293c]">KNOWLEDGE, CHARACTER and SERVICE</p>
               </div>
             </div>
 
